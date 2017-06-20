@@ -1,11 +1,5 @@
 $(function(){
-	$(".option_btn").on("click",function(){
-		$(".option_ul").fadeToggle(500);
-	})
-	$(".option_ul li").on("click",function(){
-		var text=$(this).text();
-		console.log(text);
-		$(".option").val(text);
-		$(".option_ul").fadeOut(500);
+	$(".option_btn").on("toggle",function(){
+		$(".option_ul").css("display","block");
 	})
 })
