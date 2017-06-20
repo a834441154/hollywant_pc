@@ -73,3 +73,7 @@ li{
     -webkit-box-shadow: 0 1px 1px 0 #DFDFDF;
     box-shadow: 0 1px 1px 0 #DFDFDF;
 }
+.w{
+    width: 1110px;
+    margin: 0 auto;
+}
