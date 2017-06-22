@@ -1,3 +1,4 @@
+/*头部*/
 header{
 	width:100%;
 	height: 88px;
@@ -7,8 +8,7 @@ header{
 	top: 0;
 	z-index: 10;
 }
-
-.container >:first-child{
+.container >a{
 	float: left;
 	margin-top: 14px;
 }
@@ -28,8 +28,11 @@ header{
 	background: none;
 	border-bottom: 5px solid #6e63ab;
 }
+/*banner图部分*/
 body{
-	background-image: url(../images/img12.png);
+	width: 100%;
+	height: auto;
+	background: url(../images/img12.png) no-repeat center center;
 }
 .middle{
 	margin-top: 456px;
@@ -41,11 +44,11 @@ body{
 	font-weight: 400;
 	line-height: 33px;
 }
+/*中间标题字*/
 .Application{
 	height: 92px;
 	width: 100%;
-	background: black;
-	opacity: 0.8;
+	background-color:rgba(0, 0, 0, 0.4);
 	margin-top: 96px;
 	border-bottom: #999 1px solid;
 }
@@ -53,13 +56,13 @@ body{
    text-align: center;
    line-height: 92px;
    font-size: 24px;
-   color: #ffffff;
+   color: #FFFFFF;
 }
+/*提交信息部分*/
 .coop_join_ipt{
 	height: 294px;
 	width: 100%;
-	background: black;
-	opacity: 0.8;
+	background-color:rgba(0, 0, 0, 0.4);
 }
 .coop_join_ipt .container>span{
 	background-image: url(../images/index.png);
@@ -86,7 +89,7 @@ body{
 }
 .join_input input{
 	background: black;
-	opacity: 0.8;
+	opacity: 0.6;
 	border: #999 1px solid ;
 	width: 230px;
 	height: 38px;
@@ -99,6 +102,7 @@ body{
 }
 .join_input .option{
 	width: 192px;
+	color: #FFFFFF;
 }
 .join_input .option_btn{
 	width: 38px;
@@ -131,6 +135,7 @@ body{
 	line-height: 38px;
 	padding-left: 5px;
 }
+/*提交按钮部分*/
 .join_submit{
 	height: 124px;
 }
@@ -143,19 +148,20 @@ body{
 	text-align: center;
 	color: #fff;
 	margin:28px auto;
-	float: none;
+	font-size: 20px;
 }
+/*联系信息*/
 .svm_center{
 	width: 100%;
 	background: #a2258d;
 	height: 200px;
 	border-top: 1px solid #a75499;
+	margin-top: -9px;
 }
 .svm_center .container h3{
 	color: #fff;
 	font-weight: 400;
 	text-align: center;
-	float: none;
 	margin-top: 69px;
 }
 .svm_center_icon1{
@@ -173,6 +179,7 @@ body{
 	vertical-align: middle;
 	background: url(../images/index.png);
 	background-position:-35px 140px ;
+	margin-left: 114px;
 }
 .svm_center_icon3{
 	width: 32px;
@@ -181,6 +188,7 @@ body{
 	vertical-align: middle;
 	background: url(../images/index.png);
 	background-position:-65px 137px ;
+	margin-left: 114px;
 }
 .svm_center_add{
 	display: inline-block;
@@ -188,6 +196,30 @@ body{
 	color: #fff;
 	font-size: 14px;
 }
-
+.svm_center_info{
+	text-align: center;
+	margin-top: 36px;
+}
+/*底部*/
+footer{
+	width: 100%;
+	height: 119px;
+	border-top: 1px solid #e0b6d9;
+	background: #fff;
+}
+footer .container .footer_list{
+	text-align: center;
+	margin-top: 50px;
+}
+footer .container .footer_list a{
+	padding-left: 18px;
+	padding-right: 18px;
+	border-left: 1px solid #585858;
+	cursor: pointer;
+}
+footer .container p{
+	text-align: center;
+	margin-top: 14px;
+}
 
 
