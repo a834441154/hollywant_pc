@@ -163,9 +163,6 @@
 .coop-mgn-btm{
     margin-bottom: 50px;
 }
-.mgn-btm-70{
-    margin-bottom: 70px;
-}
 .CoopIntro-ways ul{
     overflow: hidden;
 }
@@ -393,7 +390,64 @@
     line-height: 1.7;
     color: #6e2d8c;
 }
-
+/* advert */
+.CoopIntro-advert{
+    overflow: hidden;
+}
+.CoopIntro-advert ul{
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.coop-advert-left > h4{
+    font-size: 18px;
+    font-weight:400;
+    color: #6f2e8c;
+    text-align: center;
+    line-height:1.6;
+    margin-bottom: 15px;
+}
+.coop-advert-area{
+    position: relative;
+    min-height: 70px;
+}
+.coop-advert-area > i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 75px;
+    height: 70px;
+    background: url("../images/index.png") no-repeat 0 0;
+}
+.coop-advert-area > i.coop-advert-icon1{
+    background-position: 0 -296px;
+}
+.coop-advert-area > i.coop-advert-icon2{
+    background-position: -79px -296px;
+}
+.coop-advert-area > i.coop-advert-icon3{
+    background-position: -155px -296px;
+}
+.coop-advert-area > i.coop-advert-icon4{
+    background-position: -232px -296px;
+}
+.coop-advert-area > i.coop-advert-icon5{
+    background-position: -301px -296px;
+}
+.coop-advert-area > article{
+    float: left;
+    padding: 0 0 0 100px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #525252;
+}
+.coop-advert-right{
+    display: none;
+    max-width: 210px;
+}
+.coop-advert-right .img-responsive{
+    margin: 0 0 0 100px;
+}
 /* media Query */
 @media (max-width:467px) {
     .Coop-solution ul li{
@@ -451,6 +505,24 @@
     /* system */
     .CoopIntro-system ul li{
         margin-bottom: 0;
+    }
+    /* advert */
+    .CoopIntro-advert ul{
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+    .CoopIntro-advert ul li{
+        padding: 0;
+    }
+    .coop-advert-left > h4{
+        margin-bottom: 3px;
+        text-align: left;
+    }
+    .coop-advert-right .img-responsive{
+        margin: 0;
+    }
+    .coop-advert-right{
+        display: block;
     }
 }
 @media (min-width:992px){
@@ -614,48 +686,21 @@
         height: 130px;
     }
     /* advert */
+    .advert-mgn-btm{
+        margin-bottom: 70px;
+    }
     .CoopIntro-advert{
-        overflow: hidden;
+        margin-bottom: 37px;
     }
     .CoopIntro-advert ul{
         padding: 0 85px;
+        margin-bottom: 63px;
     }
     .CoopIntro-advert ul li{
         padding: 0;
     }
     .coop-advert-left > h4{
-        font-size: 18px;
-        font-weight:400;
-        color: #6f2e8c;
-        text-align: left;
-        line-height:1.6;
-        margin-bottom: 27px;
-    }
-    .coop-advert-area{
-        position: relative;
-        min-height: 70px;
-    }
-    .coop-advert-area > i{
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        width: 75px;
-        height: 70px;
-        background: url("../images/index.png") no-repeat 0 0;
-    }
-    .coop-advert-area > i.coop-advert-icon1{
-        background-position: 0 -296px;
-    }
-    .coop-advert-area > article{
-        float: left;
-        padding: 0 0 0 100px;
-        font-size: 14px;
-        line-height: 1.6;
-        color: #525252;
-    }
-    .coop-advert-right{
-        max-width: 210px;
+        margin-bottom: 22px;
     }
 }
 @media (min-width:1200px){}
